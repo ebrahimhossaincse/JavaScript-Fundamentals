@@ -11,3 +11,11 @@ function greet(name) {
 
 // pass argument to the function
 greet("Ebrahim");
+
+
+function toCelsius(fahrenheit) {
+    let res = (5/9) * (fahrenheit-32);
+    return console.log("Celsius: "+res);
+}
+
+toCelsius(98)
